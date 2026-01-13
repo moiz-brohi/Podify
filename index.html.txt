@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Gadgets Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+        }
+        header {
+            background: #000;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .card {
+            background: #fff;
+            width: 250px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .card button {
+            background: #000;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        footer {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Smart Gadgets Store</h1>
+    <p>AirPods • Smart Watches • Earbuds</p>
+</header>
+
+<section class="products">
+
+    <div class="card">
+        <img src="https://via.placeholder.com/250">
+        <h3>AirPods Pro</h3>
+        <p>Price: Rs 4,999</p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/250">
+        <h3>Smart Watch</h3>
+        <p>Price: Rs 6,999</p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/250">
+        <h3>Wireless Earbuds</h3>
+        <p>Price: Rs 3,499</p>
+        <button>Buy Now</button>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Smart Gadgets Store</p>
+</footer>
+
+</body>
+</html>
